@@ -1,0 +1,30 @@
+#walrus-showing {
+display: none;
+}
+
+#icecream-showing {
+  display: none;
+}
+
+.clickable {
+  cursor:pointer;
+  color:lightskyblue;
+}
+.clickable:hover {
+  text-decoration:underline;
+}
+
+.clickable2 {
+  cursor:pointer;
+  color:lightskyblue;
+}
+.clickable2:hover {
+  text-decoration:underline;
+}
+.clickable21 {
+  cursor:pointer;
+  color:lightskyblue;
+}
+.clickable21:hover {
+  text-decoration:underline;
+}
