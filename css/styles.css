@@ -5,6 +5,10 @@ display: none;
 #icecream-showing {
   display: none;
 }
+#learn-showing {
+  display:none;
+
+}
 
 .clickable {
   cursor:pointer;
@@ -26,5 +30,12 @@ display: none;
   color:lightskyblue;
 }
 .clickable21:hover {
+  text-decoration:underline;
+}
+.clickable3 {
+  cursor:crosshair;
+  color:green;
+}
+.clickable3:hover {
   text-decoration:underline;
 }

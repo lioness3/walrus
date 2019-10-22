@@ -21,3 +21,10 @@ $(function() {
   $("#icecream-hidden").slideToggle();
 });
 });
+
+$(function() {
+  $(".clickable3").click(function() {
+    $( "#learn-showing").show();
+    $("#learn-hidden").show();
+  });
+});
