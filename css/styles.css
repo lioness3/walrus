@@ -3,6 +3,12 @@ body.dark-background {
   color: white;
 }
 
+.box {
+border: solid grey;
+background-color: yellow;
+
+}
+
 
 
 
@@ -14,7 +20,7 @@ display: none;
   display: none;
 }
 #learn-showing {
-  display:none;
+  display: none;
 
 }
 

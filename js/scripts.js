@@ -29,4 +29,9 @@ $(function() {
     $("body").removeClass("dark-background");
     $("body").removeClass("light-text");
   });
+
+  $("#learn-showing").click(function() {
+    $(".box").removeClass("box");
+    // $(".box").addClass("box");
+  });
 });
