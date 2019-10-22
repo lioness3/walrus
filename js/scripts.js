@@ -4,27 +4,29 @@ $(function() {
     $("#walrus-hidden").fadeToggle();
   });
 
-});
-
-$(function() {
   $(".clickable2").click(function() {
     $("#icecream-showing").slideToggle();
     $("#icecream-hidden").slideToggle();
   });
-});
 
-
-$(function() {
   $(".clickable21").click(function() {
-  alert("OM NOM NOM");
-  $("#icecream-showing").slideToggle();
-  $("#icecream-hidden").slideToggle();
-});
-});
+    alert("OM NOM NOM");
+    $("#icecream-showing").slideToggle();
+    $("#icecream-hidden").slideToggle();
+  });
 
-$(function() {
   $(".clickable3").click(function() {
-    $( "#learn-showing").show();
-    $("#learn-hidden").show();
+    $( "#learn-showing").slideToggle();
+    $("#learn-hidden").slideToggle();
+  });
+
+  $("button#dark").click(function() {
+    $("body").addClass("dark-background");
+    $("body").addClass("light-text");
+  });
+
+  $("button#light").click(function() {
+    $("body").removeClass("dark-background");
+    $("body").removeClass("light-text");
   });
 });
