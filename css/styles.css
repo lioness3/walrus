@@ -3,13 +3,10 @@ body.dark-background {
   color: white;
 }
 
-.box {
+.boxStyle {
 border: solid grey;
 background-color: yellow;
-
 }
-
-
 
 
 #walrus-showing {

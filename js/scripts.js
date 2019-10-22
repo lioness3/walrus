@@ -16,7 +16,7 @@ $(function() {
   });
 
   $(".clickable3").click(function() {
-    $( "#learn-showing").slideToggle();
+    $("#learn-showing").slideToggle();
     $("#learn-hidden").slideToggle();
   });
 
@@ -30,8 +30,7 @@ $(function() {
     $("body").removeClass("light-text");
   });
 
-  $("#learn-showing").click(function() {
-    $(".box").removeClass("box");
-    // $(".box").addClass("box");
+  $(".idk").click(function() {
+    $("#hide").addClass("boxStyle");
   });
 });
