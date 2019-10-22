@@ -33,4 +33,30 @@ $(function() {
   $(".idk").click(function() {
     $("#hide").addClass("boxStyle");
   });
+
+  $("button#hello").click(function() {
+    $("ul#user").prepend("<li>Hello!</li>");
+    $("ul#webpage").prepend("<li>Why hello there!");
+
+    $("ul#user").children("li").first().click(function() {
+      $(this).remove();
+    });
+    $("ul#webpage").children("li").first().click(function() {
+      $(this).remove();
+    });
+  });
+
+
+  $("button#goodbye").click(function() {
+    $("ul#user").prepend("<li>Adios!</li>");
+    $("ul#webpage").prepend("<li>See yaaa!");
+  });
+
+  $("button#stop").click(function() {
+    $("ul#user").prepend("<li>Stop copying me!</li>");
+    $("ul#webpage").prepend("<li>You stop copying me!");
+  });
+
+
+
 });
